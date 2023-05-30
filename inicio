@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inicio - Congreso de Ingeniería Informática</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+          <li><a href="inicio.html">inicio</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li><a href="sobre_mi.html">sobre mi</a></li>
+      </ul>
+  </nav>
+    <h1>Congreso Internacional de Estudiantes de Ingeniería Informática</h1>
+    <p>Fecha: 10-11 de julio de 2023</p>
+    <p>Lugar: Fundacion universitaria internacional de la rioja</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Agenda</h2>
+      <h4>Primer dia</h4>
+      <table>
+        <tr>
+          <th>Actividad</th>
+          <th>Duración</th>
+          <th>Expositor</th>
+          <th>Aula</th>
+        </tr>
+        <tr>
+          <td>Conferencia inaugural</td>
+          <td>09:00 - 10:00</td>
+          <td>Ing. Wilson Medina</td>
+          <td>Aula 101</td>
+        </tr>
+        <tr>
+          <td>Taller de desarrollo web</td>
+          <td>10:15 - 12:00</td>
+          <td>Ing. Natalia Gutierrez</td>
+          <td>Aula 202</td>
+        </tr>
+        <tr>
+          <td>Presentación de proyectos</td>
+          <td>14:00 - 16:00</td>
+          <td>Paula Uzuriaga</td>
+          <td>Aula 303</td>
+
+        </tr>
+      </table>
+      <h4>Segundo dia</h4>
+      <table>
+        <tr>
+          <th>Actividad</th>
+          <th>Duración</th>
+          <th>Expositor</th>
+          <th>Aula</th>
+        </tr>
+        <tr>
+          <td>Taller de redes </td>
+          <td>09:00 - 10:00</td>
+          <td>Ing. Miguel Velasco</td>
+          <td>Aula 101</td>
+        </tr>
+        <tr>
+          <td>Importancia de la comunicacion</td>
+          <td>10:15 - 12:00</td>
+          <td>Lucia bejarano</td>
+          <td>Aula 202</td>
+        </tr>
+        <tr>
+          <td>Cierre del congreso</td>
+          <td>14:00 - 16:00</td>
+          <td>Juliana Vasquez</td>
+          <td>Aula 303</td>
+
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contacto: congreso@comunidadunir.net</p>
+  </footer>
+</body>
+</html>
