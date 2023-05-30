@@ -1,0 +1,130 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2019/07/origen-nombres-informatica-nunca-hubieras-imaginado_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header, main, footer {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgb(247, 242, 242);
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #fcfbfb;
+    text-align: center;
+    font-size: large;
+  }
+  
+  h1, h2,h4 {
+    color: #fdfafa;
+    text-align: center;
+  }
+  
+  a {
+    color: #fafcfd;
+    text-decoration: none;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+    
+  
+  
+
+  /* Estilos específicos para cada página */
+  
+  /* Estilos para la página de inicio */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #fcfbfb;
+    padding: 8px;
+    color: #fafafa;
+    background-color: #0a0a0a;
+  }
+  
+  /* Estilos para la página de registro */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  label, input, select {
+    display: block;
+    margin-bottom: 10px;
+    color: #fafafa;
+    position: center;
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    background-color: #0112ff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin: auto;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #fafafa;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  legend{
+    color: #fafafa;
+    text-align: center;
+  }
+  
+  /* Estilos para la página "Sobre mí" */
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  p{
+    margin-left: auto;
+  }
+  
+  /* Estilos para los enlaces en el footer */
+  footer a {
+    margin-right: 10px;
+  }
+  
+
